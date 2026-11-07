@@ -1,0 +1,527 @@
+[
+  {
+    "id": "white-house-orbit",
+    "title": {
+      "en": "White House Orbit Animation",
+      "zh": "白宫 360° 环绕动图"
+    },
+    "category": "animation",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "zh",
+    "source_url": "https://x.com/nima2qisi2/status/2118295936606798006",
+    "creator": "@nima2qisi2",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-251",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "无需参考图；建筑几何准确性未经核验。",
+      "en": "No reference required. Architectural accuracy is not verified."
+    },
+    "prompt": {
+      "en": "Generate a GIF that simulates a drone making a full 360-degree orbit around the White House exterior. Aim for a realistic building and surrounding environment.",
+      "zh": "生成一段 GIF，模拟无人机对着白宫外观做 360° 环绕拍摄。建筑和周边环境尽量真实。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "帮我做一个真实白宫外观的360°环绕模仿无人机拍摄，要真实还原建筑环境的实际外观情况，做成gif",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118295303778615296.jpg",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118295303778615296.mp4"
+    ]
+  },
+  {
+    "id": "remove-object",
+    "title": {
+      "en": "Flower Removal with Scene Preservation",
+      "zh": "移除物体并保留场景"
+    },
+    "category": "editing",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": "https://developers.openai.com/api/docs/guides/image-prompting#remove-an-object",
+    "creator": "@OpenAI",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-252",
+    "source_status": "official-page-checked",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传含待移除物体的照片；先保存原图用于比较。",
+      "en": "Upload a photo containing the object to remove; keep the original for comparison."
+    },
+    "prompt": {
+      "en": "Remove the flower from the man's hand. Preserve the person, hand pose, background, framing, and lighting. Change nothing else.",
+      "zh": "移除男子手中的花，保留人物、手势、背景、构图和光照，其他内容不变。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "Remove the flower from man's hand. Do not change anything else.",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/man-with-blue-hat.webp",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/man-with-no-flower-gpt-image-2-6-flare.webp",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/man-with-no-flower-gpt-image-2-6-sunburst.webp"
+    ]
+  },
+  {
+    "id": "winter-billboard",
+    "title": {
+      "en": "Snowy Evening Billboard Edit",
+      "zh": "广告牌场景变为冬日傍晚"
+    },
+    "category": "editing",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": "https://developers.openai.com/api/docs/guides/image-prompting#change-one-condition",
+    "creator": "@OpenAI",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-253",
+    "source_status": "official-page-checked",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传广告牌场景图。这是后续编辑，不是初始生成提示词。",
+      "en": "Upload a billboard scene. This is a follow-up edit, not the initial generation prompt."
+    },
+    "prompt": {
+      "en": "Change this scene to a snowy winter evening. Preserve the billboard layout, text, camera position, and surrounding buildings.",
+      "zh": "把场景改成飘雪的冬日傍晚。保留广告牌的版式、文字、机位和周围建筑。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "Make it look like a winter evening with snowfall.",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/billboard-gpt-image-2-6-flare.webp",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/billboard-winter-gpt-image-2-6-flare.webp",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/billboard-gpt-image-2-6-sunburst.webp",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/billboard-winter-gpt-image-2-6-sunburst.webp"
+    ]
+  },
+  {
+    "id": "tea-portrait",
+    "title": {
+      "en": "Tea Portrait Version Comparison",
+      "zh": "居家喝茶写真人像"
+    },
+    "category": "photography",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": "https://x.com/v3rt0x_/status/2118147596891901957",
+    "creator": "@v3rt0x_",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-254",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "无需参考图。原帖为版本对比，未披露参数和重试次数。",
+      "en": "No reference required. The source compares versions without disclosing settings or retries."
+    },
+    "prompt": {
+      "en": "Create a realistic photograph of a woman holding a cup of tea in her home.",
+      "zh": "生成一张写实照片：一位女性在家中手捧一杯茶。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "a realistic photo of a woman holding a cup of tea inside her home",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147098709274624.jpg",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147411746955264.jpg"
+    ]
+  },
+  {
+    "id": "baroque-gallery",
+    "title": {
+      "en": "Baroque Winter Gallery Posters",
+      "zh": "巴洛克画框立体海报"
+    },
+    "category": "posters",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": "https://x.com/Goodmanprotocol/status/2118193088128745875",
+    "creator": "@Goodmanprotocol",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-255",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传一张场景图；原帖未提供独立原图，用自己的素材替代。",
+      "en": "Upload your own scene image; standalone original inputs are unavailable."
+    },
+    "prompt": {
+      "en": "Using the uploaded scene, design a continuous 3:4 gallery poster on a softly textured wall. The upper three quarters show the scene inside an antique gold Baroque frame. Let one to three existing scene elements extend over the frame with coherent shadows; add no unrelated objects. In the lower quarter, place a small unedited reference thumbnail beside a short serif title and an italic caption. Derive wall color and lighting from the source. Avoid borders, divider lines, and separate panels.",
+      "zh": "用上传场景制作连贯的 3:4 画廊海报：上方四分之三是古董金色巴洛克画框内的原场景，让原图中一至三个已有元素越过画框，具有一致的投影，不添加无关物体。下方四分之一放原图小缩略图、简短衬线标题及斜体说明。墙面色彩和光线取自原图，不要边框、分隔线或拼接感。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": null,
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118193058370158592.jpg",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118193073935245312.jpg"
+    ]
+  },
+  {
+    "id": "character-stretch",
+    "title": {
+      "en": "Clean Character Stretching Animation",
+      "zh": "角色伸展动作 GIF"
+    },
+    "category": "animation",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "ja",
+    "source_url": "https://x.com/MiraMusic_AI/status/2118168013618987298",
+    "creator": "@MiraMusic_AI",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-256",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传角色设定图。来源为日文提示词，输出动图在 X 以 MP4 播放。",
+      "en": "Upload a character sheet. The Japanese source's animation is served as MP4 on X."
+    },
+    "prompt": {
+      "en": "Make a GIF of the supplied character stretching. Use a flat, clean finish. Avoid intricate textures, excessive detail, grain, rough surfaces, and diagonal grid patterns.",
+      "zh": "让参考角色做伸展运动，制作成 GIF。画面平整干净，不要复杂微纹理、过度细节、颗粒噪点、粗糙质感或斜网格。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "ストレッチをしているGIFを製作してください。\n仕上げはフラットでクリーンに。\n複雑な微細テクスチャ、過剰な細密描写、粒状ノイズ、ザラつき、斜めグリッド状の模様なし",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118167991833759744.jpg",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118167499812536321.mp4",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118167499812536321.jpg"
+    ]
+  },
+  {
+    "id": "rice-sticker",
+    "title": {
+      "en": "Rice Bowl Character Sticker",
+      "zh": "「真香！」吃饭表情包"
+    },
+    "category": "animation",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "zh",
+    "source_url": "https://x.com/Gorden_Sun/status/2118166046175908016",
+    "creator": "@Gorden_Sun",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-257",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传角色参考图；保留中文文字「真香！」。",
+      "en": "Upload a character reference. Keep the Chinese on-image text 真香！."
+    },
+    "prompt": {
+      "en": "Create a GIF of this character eating a bowl of plain white rice. Include the exact Chinese text: 真香！",
+      "zh": "使用这个角色，生成一张GIF图，内容是她吃大白米饭，图片里有文字：真香！"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "使用这个角色，生成一张GIF图，内容是她吃大白米饭，图片里有文字：真香！",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118166009131757568.jpg",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118165970133168129.mp4",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118165970133168129.jpg"
+    ]
+  },
+  {
+    "id": "marked-holiday-edit",
+    "title": {
+      "en": "Circle-Guided Holiday Character Edit",
+      "zh": "红蓝圈选圣诞编辑"
+    },
+    "category": "editing",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "ja",
+    "source_url": "https://x.com/IHayato/status/2118151619212890291",
+    "creator": "@IHayato",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-258",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传已画红圈和蓝圈的角色图：红圈标帽子位置，蓝圈圈住书。",
+      "en": "Upload a character image with red marking for the hat and blue marking around the book."
+    },
+    "prompt": {
+      "en": "Add a Santa hat at the red circle. Replace the book in the blue circle with a wrapped present.",
+      "zh": "在红圈处添加圣诞帽，把蓝圈中的书替换成礼物。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "赤丸にサンタ帽、青丸の本はプレゼントに",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118151559322419200.jpg"
+    ]
+  },
+  {
+    "id": "blink-sway",
+    "title": {
+      "en": "Blinking and Swaying Character Animation",
+      "zh": "眨眼与轻摆角色 GIF"
+    },
+    "category": "animation",
+    "origin": "curated",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "ja",
+    "source_url": "https://x.com/IHayato/status/2118151619212890291",
+    "creator": "@IHayato",
+    "via_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-259",
+    "source_status": "secondary-only",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "zh": "上传角色图并在动画生成上下文使用。原句本身未指定文件格式。",
+      "en": "Upload a character reference and use an animation workflow. The original phrase does not specify an output format."
+    },
+    "prompt": {
+      "en": "Animate the character blinking and gently swaying.",
+      "zh": "让角色眨眼，并轻轻摇摆。"
+    },
+    "prompt_kind": "editorial-adaptation",
+    "original_prompt": "まばたきして、ふわっと揺れて",
+    "media_urls": [
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118151194552180736.mp4",
+      "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118151194552180736.jpg"
+    ]
+  },
+  {
+    "id": "product-hero",
+    "title": {
+      "en": "Product hero",
+      "zh": "商品主视觉"
+    },
+    "category": "commerce",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Upload a product photo.",
+      "zh": "上传商品照片。"
+    },
+    "prompt": {
+      "en": "Use the supplied product as the hero of a 4:5 advertisement for {brand}. Preserve its exact shape, label and color. Place it on {surface}, against {background}, with {lighting}. Leave clean space above for the exact headline {headline}. No extra products or invented label text.",
+      "zh": "以参考商品为中心制作 {brand} 的 4:5 广告。准确保留商品外形、标签和颜色。放在 {surface} 上，背景为 {background}，光照为 {lighting}。上方留出干净空间写准确标题 {headline}。不要增加商品或编造包装文字。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "editorial-cover",
+    "title": {
+      "en": "Editorial cover",
+      "zh": "编辑杂志封面"
+    },
+    "category": "posters",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "No input required; replace all placeholders.",
+      "zh": "无需上传图，先替换所有变量。"
+    },
+    "prompt": {
+      "en": "Design a 3:4 editorial cover about {topic}. Use one strong image of {subject}, a {palette} palette and generous negative space. Set the exact masthead {masthead}, headline {headline} and date {date}. Establish a clear reading order and keep every letter legible. No additional words.",
+      "zh": "制作关于 {topic} 的 3:4 杂志封面，以 {subject} 为唯一主视觉，使用 {palette} 配色和充足留白。准确呈现刊名 {masthead}、标题 {headline} 和日期 {date}，层级清晰，文字易读，不要添加其他文字。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "mascot-sheet",
+    "title": {
+      "en": "Mascot reference sheet",
+      "zh": "吉祥物设定图"
+    },
+    "category": "characters",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Upload a mascot reference.",
+      "zh": "上传吉祥物参考图。"
+    },
+    "prompt": {
+      "en": "Create a character reference sheet from this mascot on a plain background. Show front, side and back views at matching scale, plus happy, surprised and sleepy expressions. Preserve silhouette, proportions, costume and colors. Use consistent lighting and spacing. No props, extra characters or text.",
+      "zh": "为参考吉祥物制作设定图，纯色背景，正面、侧面、背面同一比例，补充开心、惊讶、困倦三种表情。保持轮廓、比例、服饰和颜色一致，光照与间距统一，不加道具、其他角色或文字。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "paper-city",
+    "title": {
+      "en": "Paper-cut city",
+      "zh": "纸雕城市微缩景观"
+    },
+    "category": "illustration",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "No input required.",
+      "zh": "无需上传图。"
+    },
+    "prompt": {
+      "en": "Create a layered paper-cut diorama inspired by {city}. Include {three_landmarks}, with visible paper edges, restrained {palette} colors and soft directional shadows. Use a coherent isometric viewpoint and a clear central composition. Do not add city names, labels or unrelated landmarks.",
+      "zh": "制作以 {city} 为灵感的多层纸雕微缩景观，包含 {three_landmarks}，纸张边缘可见，克制的 {palette} 配色和柔和定向投影，统一等距视角、中心构图。不添加城市名称、标签或无关地标。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "brandmark-svg",
+    "title": {
+      "en": "Minimal SVG brandmark",
+      "zh": "极简 SVG 品牌标志"
+    },
+    "category": "branding",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Use an SVG-supported workflow; requesting SVG in text alone does not set the API output format.",
+      "zh": "使用支持 SVG 的流程；文字里写 SVG 不等于设置了 API 输出格式。"
+    },
+    "prompt": {
+      "en": "Design a minimal flat brandmark for {brand}, a {business_type}. Combine the visual ideas {idea_a} and {idea_b} in one distinctive silhouette. Use at most two solid colors, no gradients, shadows, textures or tiny details. It must remain recognizable at 24 pixels. No mockup or text. Deliver SVG using the supported SVG output option.",
+      "zh": "为 {business_type} 品牌 {brand} 设计极简平面标志，把 {idea_a} 和 {idea_b} 合成一个鲜明轮廓。最多两种纯色，不用渐变、投影、纹理或微小细节，24 像素下仍可辨认。不加样机或文字，通过支持的 SVG 输出选项交付。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "explainer",
+    "title": {
+      "en": "Four-step explainer",
+      "zh": "四步信息图"
+    },
+    "category": "infographics",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Supply checked facts in the placeholders.",
+      "zh": "把已核实事实填入变量。"
+    },
+    "prompt": {
+      "en": "Design a clear 16:9 infographic explaining {process} in four steps: {step_1}; {step_2}; {step_3}; {step_4}. Use one short exact label per step, simple original icons and arrows in reading order. Use {palette}, high contrast and generous spacing. Do not invent facts, numbers or labels.",
+      "zh": "制作 16:9 信息图，解释 {process} 的四个步骤：{step_1}；{step_2}；{step_3}；{step_4}。每步使用准确短标签、简洁原创图标和顺序箭头，使用 {palette}、高对比与充足间距。不要编造事实、数字或标签。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "portrait-light",
+    "title": {
+      "en": "Portrait relighting",
+      "zh": "人像自然补光"
+    },
+    "category": "photography",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Upload a portrait.",
+      "zh": "上传人像照片。"
+    },
+    "prompt": {
+      "en": "Relight this portrait as if taken beside a large window at {time_of_day}. Preserve identity, facial proportions, expression, hairstyle, clothing and background layout. Keep natural skin texture and realistic light falloff. Change lighting only; no beautification or reshaping.",
+      "zh": "把这张人像的光照调整为 {time_of_day} 靠近大窗拍摄的效果。保持身份、五官比例、表情、发型、服装和背景布局，保留自然皮肤纹理与真实光线衰减。只改光线，不美颜、不改变脸型。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  },
+  {
+    "id": "mascot-loop",
+    "title": {
+      "en": "Looping mascot greeting",
+      "zh": "吉祥物循环问候"
+    },
+    "category": "animation",
+    "origin": "original-template",
+    "model": "gpt-image-2.6",
+    "variant": "unspecified",
+    "original_language": "en",
+    "source_url": null,
+    "creator": "Repository maintainers",
+    "source_status": "original-unverified",
+    "observed_on": "2026-11-07",
+    "popularity": null,
+    "reproduced": false,
+    "requirements": {
+      "en": "Upload a mascot reference; use an animation-capable workflow.",
+      "zh": "上传吉祥物参考图，使用支持动画的流程。"
+    },
+    "prompt": {
+      "en": "Create a short seamless looping GIF of the reference mascot gently waving. Keep the camera fixed, body proportions and face consistent, and background plain. Use a small movement range and return exactly to the starting pose. No cuts, zooms, new objects or text.",
+      "zh": "把参考吉祥物制作成短小无缝循环 GIF，轻轻挥手。固定机位，保持身体比例和面部一致，纯色背景。动作幅度小，结尾准确回到开始姿势。不切镜、不变焦、不增加物体或文字。"
+    },
+    "prompt_kind": "original-template",
+    "media_urls": []
+  }
+]

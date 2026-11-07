@@ -1,0 +1,16 @@
+name: Correction or removal / 更正或移除
+description: Report incorrect source attribution, model labels, links or media rights.
+title: "[Correction] "
+body:
+  - type: input
+    id: case
+    attributes:
+      label: Affected prompt ID / 案例 ID
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Requested change and evidence / 修改请求及依据
+    validations:
+      required: true

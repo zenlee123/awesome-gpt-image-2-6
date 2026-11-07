@@ -1,0 +1,37 @@
+name: Submit a prompt / 投稿玩法
+description: Share a sourced GPT Image 2.6 example or a clearly labeled original template.
+title: "[Prompt] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Workflow title / 玩法标题
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original source and creator / 原帖与作者
+      description: For your own template, write original and link your profile.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt, inputs and output link / 提示词、输入与结果链接
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Model, verification and popularity evidence / 模型、核验与热度证据
+      description: State what is unknown. Include metric and observation date for trend claims.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Attribution / 署名
+      options:
+        - label: I have identified third-party material and have not included private data or secrets.
+          required: true
