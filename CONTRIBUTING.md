@@ -17,20 +17,31 @@ Help build a source-backed collection of GPT Image 2.6 workflows.
 
 ## Editorial rules / 编辑约定
 
-- `data/prompts.json` is the single source of truth; `README*` and `cases/*.md`
-  are generated. Edit the generator for layout changes.
+- `data/prompts.json` is the single source of truth; `README*`, `GALLERY*`,
+  `PROMPTS*`, `categories/*.md` and `cases/*.md` are generated.
+  Edit the generator for layout changes.
 - Stable `id`: lowercase ASCII words separated by hyphens. Never recycle an ID.
 - Every prompt needs `title`, `category`, `model`, `creator`, `requirements`,
-  bilingual `prompt`, `origin`, `source_status`, `observed_on`, `reproduced` and
+  `prompt`, `origin`, `source_status`, `observed_on`, `reproduced` and
   `media_urls`. See existing entries for the exact schema.
-- `source_status`: `official-page-checked`, `creator-post-checked`,
-  `secondary-only`, or `original-unverified`.
+- `source_status`: `official-page-checked`, `publisher-page-checked`,
+  `creator-post-checked`, `secondary-only`, or `original-unverified`.
 - `reproduced` means independently regenerated and reviewed, not merely reposted.
   When setting it to true, also provide `reproduction` with model, settings,
   test date, attempts, input provenance and output evidence.
 - For a popularity object, provide `metric`, `count`, `url`, `observed_on`.
   A count records a dated snapshot, not a universal ranking.
-- `prompt_kind`: `editorial-adaptation` or `original-template`.
+- `prompt_kind`: `editorial-adaptation` (existing source-based text),
+  `editorial-recreation` (a newly written brief inspired by a source workflow),
+  `original-template`, or `source-linked` (set `prompt` to `null`).
+- Bilingual prompt objects contain `en` and `zh`. A source-only entry is excluded
+  from copy-ready counts. Set `source_prompt_status` to `source-only` only when
+  the original page supplies a prompt; use `not-public` or `unverified` otherwise.
+- Structured `media` records can identify `reference`, `input` and `output`
+  roles. Keep original captions and model labels for comparison images.
+- For abbreviated popularity values, keep `display`, `approximate: true` and
+  `observed_at`; do not present `22K` as an exact count. Multiple cases from one
+  post must share its URL so the popularity table can deduplicate them.
 - Preserve source-language short prompts in `original_prompt` only when permitted;
   otherwise link to the source. Translations and rewrites must be labeled.
 - Keep JSON schema changes compatible or describe the migration in the PR.

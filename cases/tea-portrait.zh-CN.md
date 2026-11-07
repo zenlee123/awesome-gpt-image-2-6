@@ -1,31 +1,34 @@
 # 居家喝茶写真人像
 
-[返回目录](../README.zh-CN.md)
+[← 目录](../README.zh-CN.md) · [Gallery](../GALLERY.zh-CN.md)
 
-`tea-portrait` · 人像与摄影
+`tea-portrait` · 人像与摄影 · **双语提示词**
 
-- 模型归属: GPT Image 2.6; 具体变体未指定
-- 核验状态: 仅核对二手收录
-- 独立复现: No
-- 收录日期: 2026-11-07
-- 热度: 未核验，不作热门排名
-- 原作者/原始来源: [@v3rt0x_](https://x.com/v3rt0x_/status/2118147596891901957)
-- 发现来源: [EvoLink](https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-254)
+| 信息 | 记录 |
+| --- | --- |
+| Model / 模型 | GPT Image 2.6 · unspecified |
+| Evidence / 核验 | 已核对作者原帖 |
+| Reproduced / 独立复现 | No / 否 |
+| Date / 日期 | 2026-11-07 |
 
-## 准备材料
+**@v3rt0x_** · [Original source / 原始来源](https://x.com/v3rt0x_/status/2118147596891901957) · [Discovered via / 发现来源](https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-254)
+
+X views / 帖子浏览量：**77** (2026-11-07). 平台缩写为约数；统计的是整条帖子，不是单个输出效果。
+
+## 输入与准备
 
 无需参考图。原帖为版本对比，未披露参数和重试次数。
 
 ## 可复制提示词
 
-以下为中英文整理版，包含翻译、改写或保留原句；来源原文（如收录）见下方。
+中英文整理版；翻译或改写不代表本仓库已经独立复现。
 
 ```text
 生成一张写实照片：一位女性在家中手捧一杯茶。
 ```
 
 <details>
-<summary>English version</summary>
+<summary>English</summary>
 
 ```text
 Create a realistic photograph of a woman holding a cup of tea in her home.
@@ -33,18 +36,32 @@ Create a realistic photograph of a woman holding a cup of tea in her home.
 
 </details>
 
-## 来源所载原文
+<details>
+<summary>已收录的来源原句</summary>
 
 ```text
 a realistic photo of a woman holding a cup of tea inside her home
 ```
 
-原文来自二手收录；本次未直接读取原帖。
+</details>
 
-## 来源预览
+## 使用方法
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147098709274624.jpg" alt="tea-portrait source image 1" width="420">
+1. 先核对原文中的输入素材、模型变体与输出格式。
+2. 有提示词时按需替换主体和文字；仅链接案例先阅读来源。
+3. 初次只做一处修改，再检查文字、身份、几何与未修改区域。
+4. 需要 GIF / SVG 时在工具中选择相应格式；文字指令不代替 API 参数。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147411746955264.jpg" alt="tea-portrait source image 2" width="420">
+## 来源效果与参考图
 
-预览顺序沿用来源；包括参考图、结果或对比图。输入/输出角色以原始来源说明为准。图片并非本仓库实测结果，版权归各权利人。
+**Source / 来源** — 来源素材 1
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147098709274624.jpg" width="560" alt="来源素材 1" loading="lazy">
+
+**Source / 来源** — 来源素材 2
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118147411746955264.jpg" width="560" alt="来源素材 2" loading="lazy">
+
+这些是来源发布的效果，不是本仓库实测结果。第三方媒体保留各自权利。
+
+[More in 人像与摄影 / 同类玩法](../categories/photography.zh-CN.md)

@@ -1,0 +1,10 @@
+# Logos & SVG assets
+
+[← Home / 首页](../README.md) · [All prompts / 全部提示词](../PROMPTS.md)
+
+| | | |
+| --- | --- | --- |
+| [▶ Open animation / source](../cases/brandmark-svg.md)<br>**[Minimal SVG brandmark](../cases/brandmark-svg.md)**<br>Original template | [<img src="https://developers.openai.com/images/platform/guides/image-prompting/field-and-flour-gpt-image-2-6-flare.svg" width="240" alt="Bakery SVG logo" loading="lazy">](../cases/docs-bakery-svg.md)<br>**[Bakery SVG logo](../cases/docs-bakery-svg.md)**<br>Recreation brief | [<img src="https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-6-flare.webp" width="240" alt="Transparent bakery raster logo" loading="lazy">](../cases/docs-bakery-raster.md)<br>**[Transparent bakery raster logo](../cases/docs-bakery-raster.md)**<br>Source link |
+| [<img src="https://pbs.twimg.com/media/HWUw0tfaQAAol4Q?format=webp&amp;name=large" width="240" alt="Bear mascot: SVG versus PNG previews" loading="lazy">](../cases/community-bear-svg-comparison.md)<br>**[Bear mascot: SVG versus PNG previews](../cases/community-bear-svg-comparison.md)**<br>Source link | [<img src="https://image.lightlyn.com/examples/gpt-image-2-6/svg-logo.svg" width="240" alt="Harbor Roast vector logo" loading="lazy">](../cases/community-lightlyn-coffee-logo-svg.md)<br>**[Harbor Roast vector logo](../cases/community-lightlyn-coffee-logo-svg.md)**<br>Recreation brief | [<img src="https://image.lightlyn.com/examples/gpt-image-2-6/svg-icons.svg" width="240" alt="Six weather icons as SVG" loading="lazy">](../cases/community-lightlyn-weather-icons-svg.md)<br>**[Six weather icons as SVG](../cases/community-lightlyn-weather-icons-svg.md)**<br>Recreation brief |
+| [<img src="https://image.lightlyn.com/examples/gpt-image-2-6/svg-photo.svg" width="240" alt="Turn a cafe photo into vector art" loading="lazy">](../cases/community-lightlyn-latte-vector-svg.md)<br>**[Turn a cafe photo into vector art](../cases/community-lightlyn-latte-vector-svg.md)**<br>Source link |  |  |
+

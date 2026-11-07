@@ -1,96 +1,92 @@
 # Awesome GPT Image 2.6
 
-**A source-backed prompt collection for GPT Image 2.6 creators worldwide.**
+**Explore sourced workflows. Find a visual idea. Copy a useful prompt.**
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [JSON](data/prompts.json) · [Contribute](CONTRIBUTING.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [Visual gallery](GALLERY.md) · [全部提示词](PROMPTS.zh-CN.md) · [JSON](data/prompts.json)
 
-![Curated cases](https://img.shields.io/badge/sourced_cases-9-2563eb) ![Original templates](https://img.shields.io/badge/original_templates-8-7c3aed) [![License](https://img.shields.io/badge/docs-CC_BY_4.0-16a34a)](LICENSE)
+![Sources](https://img.shields.io/badge/source_workflows-104-2563eb) ![Prompts](https://img.shields.io/badge/bilingual_briefs-57-7c3aed) ![Categories](https://img.shields.io/badge/categories-17-059669) [![License](https://img.shields.io/badge/docs-CC_BY_4.0-475569)](LICENSE)
 
-Explore **9 sourced cases + 8 original untested templates** for editing, character GIFs, portraits, posters, products, SVG and infographics. Every entry includes English and Chinese prompts.
+**104 source workflows · 57 copy-ready bilingual prompts/briefs · 17 categories · 33 credited creators/publishers.**
 
-> This is a growing collection, not a verified global viral ranking. Seven creator cases are secondary-source only; two official examples were checked against their source. None has been independently reproduced. GPT Image 2.5 cases are not counted as 2.6. Read the [source audit](docs/SOURCES.md).
+GIFs, markup edits, ads, packaging, food, fashion, SVG, interiors, comics, infographics and surreal worlds. 68 source-link entries provide outputs and provenance without pretending to include complete prompts.
 
-## Quick start
+## Start here
 
-1. Pick a workflow below and open its case page.
-2. Prepare the listed inputs and copy an English or Chinese prompt.
-3. Use a tool offering GPT Image 2.6; replace `{placeholders}` in templates.
-4. For GIF or SVG, also select the output format supported by your tool.
+- [🖼 Browse the visual gallery](GALLERY.md)
+- [📋 Copy prompts and recreation briefs](PROMPTS.md)
+- [🧭 Choose by task](cases/README.md)
+- [🛠 Inputs, settings and iteration](docs/PLAYBOOK.md)
 
-## Workflow previews
+## Featured workflows
 
-| Gallery poster | Rice sticker | Blinking character |
+| | | |
 | --- | --- | --- |
-| [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118193058370158592.jpg" width="240" alt="baroque-gallery">](cases/baroque-gallery.md) | [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118165970133168129.jpg" width="240" alt="rice-sticker">](cases/rice-sticker.md) | [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118151194552180736.jpg" width="240" alt="blink-sway">](cases/blink-sway.md) |
+| [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118193058370158592.jpg" width="240" alt="Baroque Winter Gallery Posters" loading="lazy">](cases/baroque-gallery.md)<br>**[Baroque Winter Gallery Posters](cases/baroque-gallery.md)**<br>Bilingual prompt | [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118165970133168129.jpg" width="240" alt="Rice Bowl Character Sticker" loading="lazy">](cases/rice-sticker.md)<br>**[Rice Bowl Character Sticker](cases/rice-sticker.md)**<br>Bilingual prompt | [<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-image-2-5-prompts/assets/gpt-image-2-6/2118151194552180736.jpg" width="240" alt="Blinking and Swaying Character Animation" loading="lazy">](cases/blink-sway.md)<br>**[Blinking and Swaying Character Animation](cases/blink-sway.md)**<br>Bilingual prompt |
+| [<img src="https://developers.openai.com/images/platform/guides/image-prompting/field-and-flour-gpt-image-2-6-flare.svg" width="240" alt="Bakery SVG logo" loading="lazy">](cases/docs-bakery-svg.md)<br>**[Bakery SVG logo](cases/docs-bakery-svg.md)**<br>Recreation brief | [<img src="https://www.made.app/images/models/gpt-image-2-6-flare/noodle-menu.jpg" width="240" alt="Made Lightbox menu" loading="lazy">](cases/made-flare-noodle-menu.md)<br>**[Made Lightbox menu](cases/made-flare-noodle-menu.md)**<br>Recreation brief | [<img src="https://www.made.app/images/models/gpt-image-2-6-sunburst/turntable-diagram.jpg" width="240" alt="Made Exploded diagram" loading="lazy">](cases/made-sunburst-turntable-diagram.md)<br>**[Made Exploded diagram](cases/made-sunburst-turntable-diagram.md)**<br>Recreation brief |
+| [<img src="https://developers.openai.com/images/platform/guides/image-prompting/kitchen-chairs-gpt-image-2-6-flare.webp" width="240" alt="Replace chairs in an interior" loading="lazy">](cases/docs-room-chairs.md)<br>**[Replace chairs in an interior](cases/docs-room-chairs.md)**<br>Source link | [<img src="https://mossimage.studio/examples/compare-agenda-flare.jpg" width="240" alt="Northfield Design Summit agenda: Flare and Sunburst" loading="lazy">](cases/community-moss-design-summit-agenda.md)<br>**[Northfield Design Summit agenda: Flare and Sunburst](cases/community-moss-design-summit-agenda.md)**<br>Recreation brief | [<img src="https://yir.ai/images/models/gpt-image-2-6/rail-06-flavor-lineup.webp" width="240" alt="Three-flavor soda lineup" loading="lazy">](cases/yir-flavor-lineup.md)<br>**[Three-flavor soda lineup](cases/yir-flavor-lineup.md)**<br>Recreation brief |
+| [<img src="https://www.prayproductionstudio.com/blog/gpt-image-2-6-ophanim-prompts/still-coastal-lookout.jpg" width="240" alt="Ophanim-inspired still: The Coastal Lookout" loading="lazy">](cases/community-ophanim-coastal-lookout.md)<br>**[Ophanim-inspired still: The Coastal Lookout](cases/community-ophanim-coastal-lookout.md)**<br>Recreation brief | [<img src="https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-6-flare.webp" width="240" alt="Four-panel pet comic" loading="lazy">](cases/docs-pet-comic.md)<br>**[Four-panel pet comic](cases/docs-pet-comic.md)**<br>Source link | [<img src="https://image.lightlyn.com/examples/gpt-image-2-6/svg-icons.svg" width="240" alt="Six weather icons as SVG" loading="lazy">](cases/community-lightlyn-weather-icons-svg.md)<br>**[Six weather icons as SVG](cases/community-lightlyn-weather-icons-svg.md)**<br>Recreation brief |
 
-Source previews, not results generated by this repository.
+Previews are credited source outputs. Recreation briefs are editorial rewrites, not the creators’ exact prompts. See each detail page.
 
-## Categories
+## Tracked community interest
 
-| Category | Entries |
-| --- | ---: |
-| [GIF & animation](cases/README.md#animation) | 5 |
-| [Precise editing](cases/README.md#editing) | 3 |
-| [Portraits & photography](cases/README.md#photography) | 2 |
-| [Posters & typography](cases/README.md#posters) | 2 |
-| [Product & commerce](cases/README.md#commerce) | 1 |
-| [Character consistency](cases/README.md#characters) | 1 |
-| [Illustration & dioramas](cases/README.md#illustration) | 1 |
-| [Logos & SVG](cases/README.md#branding) | 1 |
-| [Infographics](cases/README.md#infographics) | 1 |
+| Tracked post | View snapshot | Checked |
+| --- | ---: | --- |
+| [Rice Bowl Character Sticker](cases/rice-sticker.md) | 22K | 2026-11-07 |
+| [Circle-Guided Holiday Character Edit](cases/marked-holiday-edit.md) | 16.2K | 2026-11-07 |
+| [Hummingbird and kingfisher animation variants](cases/community-hummingbird-variants.md) | 9,515 | 2026-11-07 |
+| [Rosebud animation](cases/community-rosebud-animation.md) | 4,651 | 2026-11-07 |
+| [Boxing tiger animation](cases/community-boxing-tiger.md) | 3,527 | 2026-11-07 |
+| [Clean Character Stretching Animation](cases/character-stretch.md) | 3,494 | 2026-11-07 |
 
-## Sourced 2.6 cases
+This compares tracked posts only, not the whole web. Abbreviated counts are approximate; shared posts appear once.
 
-| Workflow | Category | Evidence |
-| --- | --- | --- |
-| [White House Orbit Animation](cases/white-house-orbit.md) | GIF & animation | Secondary collection only |
-| [Flower Removal with Scene Preservation](cases/remove-object.md) | Precise editing | Official page checked |
-| [Snowy Evening Billboard Edit](cases/winter-billboard.md) | Precise editing | Official page checked |
-| [Tea Portrait Version Comparison](cases/tea-portrait.md) | Portraits & photography | Secondary collection only |
-| [Baroque Winter Gallery Posters](cases/baroque-gallery.md) | Posters & typography | Secondary collection only |
-| [Clean Character Stretching Animation](cases/character-stretch.md) | GIF & animation | Secondary collection only |
-| [Rice Bowl Character Sticker](cases/rice-sticker.md) | GIF & animation | Secondary collection only |
-| [Circle-Guided Holiday Character Edit](cases/marked-holiday-edit.md) | Precise editing | Secondary collection only |
-| [Blinking and Swaying Character Animation](cases/blink-sway.md) | GIF & animation | Secondary collection only |
+## Browse by task
 
-## Original templates · untested
+| Category | Source workflows | Copy-ready briefs |
+| --- | ---: | ---: |
+| [GIF & animation](categories/animation.md) | 18 | 8 |
+| [Precise image editing](categories/editing.md) | 9 | 5 |
+| [Markup-guided edits](categories/markup.md) | 2 | 2 |
+| [Portraits & photography](categories/photography.md) | 9 | 4 |
+| [Fashion & virtual try-on](categories/fashion.md) | 2 | 2 |
+| [Posters & typography](categories/posters.md) | 18 | 7 |
+| [Product & commerce](categories/commerce.md) | 12 | 5 |
+| [Packaging & labels](categories/packaging.md) | 2 | 2 |
+| [Food & restaurants](categories/food.md) | 2 | 2 |
+| [Characters & consistency](categories/characters.md) | 6 | 1 |
+| [Illustration & dioramas](categories/illustration.md) | 0 | 3 |
+| [Logos & SVG assets](categories/branding.md) | 6 | 4 |
+| [Infographics & slides](categories/infographics.md) | 7 | 4 |
+| [Interiors & architecture](categories/interiors.md) | 3 | 2 |
+| [UI & interface concepts](categories/interfaces.md) | 1 | 2 |
+| [Fantasy & surreal worlds](categories/fantasy.md) | 5 | 2 |
+| [Comics & storyboards](categories/storyboards.md) | 2 | 2 |
 
-| Workflow | Category | Evidence |
-| --- | --- | --- |
-| [Product hero](cases/product-hero.md) | Product & commerce | Original, untested template |
-| [Editorial cover](cases/editorial-cover.md) | Posters & typography | Original, untested template |
-| [Mascot reference sheet](cases/mascot-sheet.md) | Character consistency | Original, untested template |
-| [Paper-cut city](cases/paper-city.md) | Illustration & dioramas | Original, untested template |
-| [Minimal SVG brandmark](cases/brandmark-svg.md) | Logos & SVG | Original, untested template |
-| [Four-step explainer](cases/explainer.md) | Infographics | Original, untested template |
-| [Portrait relighting](cases/portrait-light.md) | Portraits & photography | Original, untested template |
-| [Looping mascot greeting](cases/mascot-loop.md) | GIF & animation | Original, untested template |
+## How to read the labels
 
-## Model & resources
+- **Source checked**: model attribution was read at the original page; no independent reproduction implied.
+- **Recreation brief**: our rewrite inspired by the workflow; the source image does not validate the rewrite.
+- **Source link**: follow the original page for the prompt, or see the missing-prompt note.
+- **Original, untested**: an editable starting point without generated validation.
 
-- [OpenAI image generation guide](https://developers.openai.com/api/docs/guides/image-generation)
-- [OpenAI image prompting guide](https://developers.openai.com/api/docs/guides/image-prompting)
-- [OpenAI release notes](https://developers.openai.com/api/docs/changelog)
-- [Source audit / 来源核验](docs/SOURCES.md)
-- [Reference collection by EvoLink](https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api)
+[Source audit / 来源核验](docs/SOURCES.md) · [Legacy 2.5 references / 旧版资料](docs/LEGACY.md)
 
-Official models include `gpt-image-2.6-sunburst` and `gpt-image-2.6-flare`. Consult current official documentation and your account for API and format availability.
+## Contribute
 
-## Keep the collection useful
-
-[Submit a prompt / 投稿](https://github.com/zenlee123/awesome-gpt-image-2-6/issues/new?template=prompt.yml) · [Corrections / 更正](https://github.com/zenlee123/awesome-gpt-image-2-6/issues/new?template=correction.yml)
-
-Maintenance: edit JSON → run the generator → open a PR. No dependencies required.
+[Submit a workflow / 投稿](https://github.com/zenlee123/awesome-gpt-image-2-6/issues/new?template=prompt.yml) · [Correct attribution / 更正](https://github.com/zenlee123/awesome-gpt-image-2-6/issues/new?template=correction.yml) · [Guide](CONTRIBUTING.md)
 
 ```sh
 python3 scripts/build.py
 python3 scripts/build.py --check
 ```
 
-This is a manually curated initial edition, not an automated feed. Contributions with original sources, model evidence and dated popularity metrics are welcome.
+Research is manually curated; no automated collection job is configured. The generator validates metadata, categories and internal links.
 
 ## Credits & license
 
-Thanks to EvoLink for source discovery and to every credited creator. Documentation, translations and original templates: CC BY 4.0. Generator code: MIT. Third-party prompts and media retain their owners’ rights; see [LICENSE](LICENSE).
+[EvoLink](https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api) · [Raphael OpenLab](https://github.com/RaphaelAI-OpenLab/awesome-gpt-image-2-6) · [OpenAI documentation](https://developers.openai.com/api/docs/guides/image-prompting) · every credited creator.
 
-Last curated: 2026-11-07
+Repository documentation: CC BY 4.0. Code: MIT. Imported catalogue metadata: MIT, credited in [attribution notes](docs/ATTRIBUTION.md). Third-party prompts and media retain their owners’ rights. [License](LICENSE).
+
+Last curated / 最近整理: **2026-11-07**

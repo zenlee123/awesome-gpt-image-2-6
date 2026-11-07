@@ -15,6 +15,10 @@ https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api
 This repository reorganizes the 2.6 cases and adds bilingual adaptations,
 structured metadata and original templates; it is not an official fork.
 
+Additional source-catalogue metadata adapted from RaphaelAI OpenLab is under
+the MIT license preserved in third_party/RaphaelAI-MIT.txt. See
+docs/ATTRIBUTION.md for scope, provenance and changes.
+
 Code in scripts/ is licensed under the MIT License:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
